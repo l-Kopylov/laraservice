@@ -12,6 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->unsignedInteger('price_per_square_meter'); // Цена за квадратный метр 
+            $table->timestamps();
         });
     }
 
